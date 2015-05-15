@@ -20,20 +20,15 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/sony/e1/proprietary/bin/charger_monitor:system/bin/charger_monitor \
     vendor/sony/e1/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-    vendor/sony/e1/proprietary/bin/efsks:system/bin/efsks \
     vendor/sony/e1/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/e1/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/e1/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/e1/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/sony/e1/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/sony/e1/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
-    vendor/sony/e1/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/e1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/e1/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/e1/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/e1/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/sony/e1/proprietary/bin/ks:system/bin/ks \
-    vendor/sony/e1/proprietary/bin/led_deamon:system/bin/led_deamon \
     vendor/sony/e1/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/sony/e1/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/sony/e1/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -53,10 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/bin/rild:system/bin/rild \
     vendor/sony/e1/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/e1/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/sony/e1/proprietary/bin/sensord:system/bin/sensord \
-    vendor/sony/e1/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/e1/proprietary/bin/ta_qmi_service:system/bin/ta_qmi_service \
-    vendor/sony/e1/proprietary/bin/thermald:system/bin/thermald \
     vendor/sony/e1/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/sony/e1/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/sony/e1/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -80,33 +72,16 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/sony/e1/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/sony/e1/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/sony/e1/proprietary/etc/firmware/cyttsp_8064_mtp.hex:system/etc/firmware/cyttsp_8064_mtp.hex \
-    vendor/sony/e1/proprietary/etc/firmware/cyttsp_8960_cdp.hex:system/etc/firmware/cyttsp_8960_cdp.hex \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.flist:system/etc/firmware/dxhdcp2.flist \
-    vendor/sony/e1/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/sony/e1/proprietary/etc/firmware/tzlibasb.b00:system/etc/firmware/tzlibasb.b00 \
     vendor/sony/e1/proprietary/etc/firmware/tzlibasb.b01:system/etc/firmware/tzlibasb.b01 \
     vendor/sony/e1/proprietary/etc/firmware/tzlibasb.b02:system/etc/firmware/tzlibasb.b02 \
     vendor/sony/e1/proprietary/etc/firmware/tzlibasb.b03:system/etc/firmware/tzlibasb.b03 \
-    vendor/sony/e1/proprietary/etc/firmware/tzlibasb.flist:system/etc/firmware/tzlibasb.flist \
     vendor/sony/e1/proprietary/etc/firmware/tzlibasb.mdt:system/etc/firmware/tzlibasb.mdt \
     vendor/sony/e1/proprietary/etc/firmware/tzsuntory.b00:system/etc/firmware/tzsuntory.b00 \
     vendor/sony/e1/proprietary/etc/firmware/tzsuntory.b01:system/etc/firmware/tzsuntory.b01 \
     vendor/sony/e1/proprietary/etc/firmware/tzsuntory.b02:system/etc/firmware/tzsuntory.b02 \
     vendor/sony/e1/proprietary/etc/firmware/tzsuntory.b03:system/etc/firmware/tzsuntory.b03 \
-    vendor/sony/e1/proprietary/etc/firmware/tzsuntory.flist:system/etc/firmware/tzsuntory.flist \
     vendor/sony/e1/proprietary/etc/firmware/tzsuntory.mdt:system/etc/firmware/tzsuntory.mdt \
-    vendor/sony/e1/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
-    vendor/sony/e1/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/sony/e1/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/sony/e1/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/sony/e1/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/sony/e1/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/sony/e1/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/sony/e1/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     vendor/sony/e1/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/sony/e1/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -121,40 +96,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/sony/e1/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/sony/e1/proprietary/lib/hw/camera.msm8610.so:system/lib/hw/camera.msm8610.so \
-    vendor/sony/e1/proprietary/lib/hw/camera.vendor.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
-    vendor/sony/e1/proprietary/lib/hw/lights.vendor.msm8960.so:system/lib/hw/lights.vendor.msm8960.so \
-    vendor/sony/e1/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
-    vendor/sony/e1/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/sony/e1/proprietary/lib/hw/sensors.msm8610.so:system/lib/hw/sensors.msm8610.so \
-    vendor/sony/e1/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/sony/e1/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/sony/e1/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/sony/e1/proprietary/lib/libbtnv.so:system/lib/libbtnv.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_2nd_default_video_1.so:system/lib/libchromatix_s5k4e1_2nd_default_video_1.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_2nd_default_video.so:system/lib/libchromatix_s5k4e1_2nd_default_video.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_2nd_preview_1.so:system/lib/libchromatix_s5k4e1_2nd_preview_1.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_2nd_preview.so:system/lib/libchromatix_s5k4e1_2nd_preview.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_default_video_1.so:system/lib/libchromatix_s5k4e1_default_video_1.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_preview_1.so:system/lib/libchromatix_s5k4e1_preview_1.so \
-    vendor/sony/e1/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
     vendor/sony/e1/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
-    vendor/sony/e1/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
-    vendor/sony/e1/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/sony/e1/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
-    vendor/sony/e1/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/sony/e1/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/sony/e1/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/sony/e1/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/sony/e1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/sony/e1/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/sony/e1/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
-    vendor/sony/e1/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/sony/e1/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
-    vendor/sony/e1/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/sony/e1/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/sony/e1/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-    vendor/sony/e1/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+    vendor/sony/e1/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/sony/e1/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/e1/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/e1/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -162,70 +107,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/e1/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/e1/proprietary/lib/libloc_xtra.so:system/lib/libloc_xtra.so \
-    vendor/sony/e1/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/e1/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
-    vendor/sony/e1/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/sony/e1/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_3a_legacy.so:system/lib/libmmcamera_3a_legacy.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_imx091.so:system/lib/libmmcamera_imx091.so \
     vendor/sony/e1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/sony/e1/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_plugin.so:system/lib/libmmcamera_plugin.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_tintless_wrapper.so:system/lib/libmmcamera_tintless_wrapper.so \
-    vendor/sony/e1/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-    vendor/sony/e1/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/sony/e1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/sony/e1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/sony/e1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/sony/e1/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
-    vendor/sony/e1/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/sony/e1/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
     vendor/sony/e1/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/sony/e1/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/sony/e1/proprietary/lib/libmorpho_denoiser.so:system/lib/libmorpho_denoiser.so \
     vendor/sony/e1/proprietary/lib/libmorpho_easy_hdr.so:system/lib/libmorpho_easy_hdr.so \
     vendor/sony/e1/proprietary/lib/libmorpho_edit_engine.so:system/lib/libmorpho_edit_engine.so \
     vendor/sony/e1/proprietary/lib/libmorpho_fdw.so:system/lib/libmorpho_fdw.so \
     vendor/sony/e1/proprietary/lib/libmorpho_hdr_checker.so:system/lib/libmorpho_hdr_checker.so \
     vendor/sony/e1/proprietary/lib/libmorpho_image_stabilizer3.so:system/lib/libmorpho_image_stabilizer3.so \
-    vendor/sony/e1/proprietary/lib/libmorpho_object_tracker2.so:system/lib/libmorpho_object_tracker2.so \
     vendor/sony/e1/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
     vendor/sony/e1/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/e1/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    vendor/sony/e1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/sony/e1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/sony/e1/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
-    vendor/sony/e1/proprietary/lib/libprofiler_msmadc.so:system/lib/libprofiler_msmadc.so \
-    vendor/sony/e1/proprietary/lib/libqcci_adc.so:system/lib/libqcci_adc.so \
-    vendor/sony/e1/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/sony/e1/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-    vendor/sony/e1/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/sony/e1/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/sony/e1/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/sony/e1/proprietary/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so \
-    vendor/sony/e1/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
-    vendor/sony/e1/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/sony/e1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/sony/e1/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/sony/e1/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/sony/e1/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/sony/e1/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/sony/e1/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/sony/e1/proprietary/lib/librmp.so:system/lib/librmp.so \
-    vendor/sony/e1/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/sony/e1/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/sony/e1/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so \
     vendor/sony/e1/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/e1/proprietary/lib/libtzplayready.so:system/lib/libtzplayready.so \
     vendor/sony/e1/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/sony/e1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/sony/e1/proprietary/vendor/lib/drm/libdrmprplugin.so:system/vendor/lib/drm/libdrmprplugin.so \
     vendor/sony/e1/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -235,7 +137,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-    vendor/sony/e1/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/e1/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/e1/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
@@ -248,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
     vendor/sony/e1/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/sony/e1/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
-    vendor/sony/e1/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/sony/e1/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/e1/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/e1/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
@@ -256,13 +156,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/sony/e1/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/sony/e1/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/sony/e1/proprietary/vendor/lib/libchromatix_gc2235_common.so:system/vendor/lib/libchromatix_gc2235_common.so \
-    vendor/sony/e1/proprietary/vendor/lib/libchromatix_gc2235_default_video.so:system/vendor/lib/libchromatix_gc2235_default_video.so \
-    vendor/sony/e1/proprietary/vendor/lib/libchromatix_gc2235_preview.so:system/vendor/lib/libchromatix_gc2235_preview.so \
     vendor/sony/e1/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/e1/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/sony/e1/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
-    vendor/sony/e1/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/sony/e1/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/sony/e1/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/sony/e1/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -283,7 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/e1/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/e1/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/sony/e1/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/sony/e1/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/sony/e1/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
     vendor/sony/e1/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
@@ -301,11 +196,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/sony/e1/proprietary/vendor/lib/libmmcamera_gc2235.so:system/vendor/lib/libmmcamera_gc2235.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/sony/e1/proprietary/vendor/lib/libmmcamera_t4k28.so:system/vendor/lib/libmmcamera_t4k28.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/sony/e1/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
@@ -350,7 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/e1/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
     vendor/sony/e1/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/sony/e1/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/sony/e1/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/sony/e1/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/e1/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -362,7 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/e1/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/sony/e1/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/sony/e1/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
-    vendor/sony/e1/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/sony/e1/proprietary/vendor/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
     vendor/sony/e1/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/sony/e1/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/sony/e1/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
